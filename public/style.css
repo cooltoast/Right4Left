@@ -1,0 +1,122 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 80% verdana;
+	line-height: 2;
+	color: #AAACA9;
+        background: #B20; /* for non-css3 browsers */
+
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BB2200', endColorstr='#000000'); /* for IE */
+        background: -webkit-gradient(linear, left top, left bottom, from(#B20), to(#000)); /* for webkit browsers */
+        background: -moz-linear-gradient(top,  #B20,  #000); /* for firefox 3.6+ */ 
+	background-repeat: no-repeat;
+        background-attachment: fixed !important;
+        
+        margin: 0px;
+	padding: 0px;
+	text-align: center;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h1 {
+	font: 3.0em verdana;
+	font-weight: bold;
+	color: #CC3300;
+	}
+
+h2 {
+	font: 2.0em verdana;
+	font-weight: bold;
+	color: #777777;
+}
+
+h3 { 
+	font: 1.5em verdana;
+	font-weight: bold;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #CC3300;
+	clear: both;
+	}
+a { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #CCCCCC;
+	}
+a:hover, a:active { 
+	color: #CC7300;
+	}
+acronym {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+#container { 
+	background-color: rgba(0,0,0,0.7); 
+	padding: 0 110px 40px 110px;  
+	margin: 0 auto 0px auto; 
+	position: relative;
+	top: 0px;
+	width: 600px;
+	min-width: 470px;
+	text-align: left;
+	}
+
+#intro {
+	min-width: 470px;
+	}
+
+#pageHeader h1 { 
+	float: left;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+#pageHeader h2 { 
+	float: right;
+	}
+#pageHeader {
+	padding-top: 20px;
+}
+
+#quickSummary {
+	clear:both;
+	width: 500px; 
+	margin: 20px 20px 20px 10px; 
+	float: left;
+	}
+#quickSummary p {
+	text-align: left;
+	font: italic 10pt/22pt georgia;
+	}
+
+#preamble {
+	padding: 0px 10px 0 10px;
+	}
+#supportingText {	
+	padding-left: 10px; 
+	}
+
+#linkList {
+	position: fixed; 
+	bottom: 0; 
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 5px
+	font: 10px verdana, sans-serif;
+	text-align: center; 
+	padding: 0 10px 10px 10px; 
+	}
+
+::selection {
+	color: #CC7300;
+}
+
+::-moz-selection {
+	color: #CC7300;
+}
